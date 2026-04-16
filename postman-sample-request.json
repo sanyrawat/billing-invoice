@@ -1,0 +1,38 @@
+{
+  "invoiceNumber": "INV-2026-1001",
+  "invoiceDate": "2026-04-14",
+  "customerName": "John Doe",
+  "customerAddress": "Lucknow, Uttar Pradesh, India",
+  "customerContactNo": "9876500000",
+  "customerGstin": "09AAAJD0000A1Z5",
+  "items": [
+    {
+      "description": "Laptop",
+      "hsnSac": "8471",
+      "quantity": 1,
+      "unit": "Pcs",
+      "unitPrice": 75000
+    },
+    {
+      "description": "Mouse",
+      "hsnSac": "8471",
+      "quantity": 2,
+      "unit": "Pcs",
+      "unitPrice": 1200
+    }
+  ],
+  "taxPercentage": 18,
+  "companyName": "ABC Technologies Pvt Ltd",
+  "companyAddress": "Noida, India",
+  "companyPhone": "9876543210",
+  "companyEmail": "accounts@abctech.com",
+  "companyGstin": "09ABCDE1234F1Z1",
+  "companyState": "09-Uttar Pradesh",
+  "poDate": "2026-04-14",
+  "poNumber": "511687794906159",
+  "ewayBillNumber": "411704007408",
+  "bankName": "Union Bank Of India, Faizabad Road",
+  "accountNumber": "555001010050732",
+  "ifscCode": "UBIN0555509",
+  "accountHolderName": "ABC Technologies Pvt Ltd"
+}

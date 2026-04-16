@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const API_BASE_URL = `${window.location.protocol}//${window.location.hostname}:8080`;
+
 const createItem = () => ({
   description: "",
   hsnSac: "",
@@ -103,7 +105,7 @@ function App() {
     setLoading(true);
     try {
       const payload = sanitizePayload();
-      const response = await fetch("http://localhost:8080/api/invoices/generate", {
+      const response = await fetch(`${API_BASE_URL}/api/invoices/generate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
